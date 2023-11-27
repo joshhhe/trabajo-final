@@ -1,0 +1,23 @@
+#productos-container{
+    width: 500px;
+    margin: auto;
+}
+
+.tarjeta-producto{
+    display: flex;
+    gap: 10px;
+}
+.tarjeta-producto img{
+    height: 120px;
+    aspect-ratio: 1.5;
+}
+.tarjeta-producto h3{
+    width: 120px;
+}
+#totales{
+    text-align: center;
+}
+
+#totales, #carrito-vacio{
+    text-align: center;
+}

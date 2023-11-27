@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stye.css">
+    <link rel="stylesheet" href="cart.css">
+
+    <title>Ecomerce</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="imagenes/percha-de-ropa.png" alt="" id="logo"></a>
+
+            <ul class="nav_link">
+                <li><a href="#">Lanzamientos</a></li>
+                <li><a href="#">Marcas</a></li>
+                <li><a href="#">Servicio</a></li>
+                <li><a href="#">Accesorio</a></li>
+            </ul>
+            <div>
+                <a href="cart.html"><img src="imagenes/shopping-cart.png" alt=""><span id="carrito-cuenta">0</span></a>
+            </div>
+        </nav>
+        <button id="btn-inicio" class="botonI">Iniciar sesion/Registrar</button>
+    </header>
+
+    <main>
+        <p id="carrito-vacio">No hay productos en el carrito. <a href="index.html">Agregar algunos</a></p>
+        <section id="productos-container"></section>
+        <section id="totales">
+            <p>Total unidades : <span id="unidades">0</span></p>
+            <p>Total precio: $<span id="precio">0</span></p>
+            <button disabled>Comprar</button>
+            <button id="Reiniciar">Reiniciar carrito</button>
+        </section>
+    </main>
+
+    <script src="js/cart.js"></script>
+    <script src="js/cartservice.js"></script>
+</body>
+</html>
